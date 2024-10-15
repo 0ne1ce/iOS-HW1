@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     //MARK: - Constants
     private enum Constants {
         static let animationTime: Double = 1.8
-        static let radiusUpperBound: CGFloat = 75
+        static let radiusUpperBound: CGFloat = 26
         static let randomHexSymbols = "0123456789ABCDEF"
         static let hexSize = 6
     }
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     //MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        button.layer.cornerRadius = 5
     }
     
     //MARK: - Actions
